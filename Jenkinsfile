@@ -6,7 +6,7 @@ node {
 	stage('Test') {
 		nodejs(nodeJSInstallationName: 'nodejs') {
 			sh 'npm ci'
-			sh 'npm run test:ci'
+			sh 'npm run test'
 		}
 	}
 
@@ -15,6 +15,4 @@ node {
 			sh 'npm run build'
 		}
 	}
-
-
 }
