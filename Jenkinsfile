@@ -11,11 +11,11 @@ node {
 	}
 
 	stage('Deploy Prod') {
-		sh "ssh ec2-user@ec2-13-59-235-55.us-east-2.compute.amazonaws.com"
-		sh "cd ~/devops-test-project/"
-		sh "git pull"
-		sh "npm run build"
-		sh "cd /usr/share/nginx/html"
-		sh "cp -rf ~/devops-test-project/build/* html/"
+		sh -tt "ssh ec2-user@ec2-13-59-235-55.us-east-2.compute.amazonaws.com"
+		sh -tt "cd ~/devops-test-project/"
+		sh -tt "git pull"
+		sh -tt "npm run build"
+		sh -tt "cd /usr/share/nginx/html"
+		sh -tt "cp -rf ~/devops-test-project/build/* html/"
 	}
 }
