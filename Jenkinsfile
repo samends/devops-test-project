@@ -17,6 +17,6 @@ node {
 	}
 
 	stage('Deploy Prod') {
-		sh "aws s3 cp ./build s3://aws.sammenza.com --recursive --acl public-read"
+		sh "aws s3 cp ./build s3://deviantwebdev.com --recursive --acl public-read"
 	}
 }
