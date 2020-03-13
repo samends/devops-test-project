@@ -19,6 +19,6 @@ node {
 
 	stage('Deploy Prod') {
 		sh "cat build/static/js/*.chunk.js.map"
-		sh "aws s3 cp ./build s3://deviantwebdev.com --recursive --acl public-read"
+		sh "aws s3 cp ./build s3://sammenza.com.com --recursive --acl public-read"
 	}
 }
