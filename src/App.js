@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn about Cats!
+          Learn about Coffee!
         </a>
       </header>
     </div>
