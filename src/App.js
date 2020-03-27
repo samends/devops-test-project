@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload. And eat more avocados! And learn how to deploy to sites with aws!!
+          Edit <code>src/App.js</code> and save to reload. And eat more avocados! And learn how to deploy to sites with aws!
         </p>
         <a
           className="App-link"
@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Make sure to drink 12 cups of coffee a day!
+          Make sure to drink 12 cups of water a day!
         </a>
       </header>
     </div>
