@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn about Dogs!
+          Make sure to drink 12 cups of coffee a day!
         </a>
       </header>
     </div>
