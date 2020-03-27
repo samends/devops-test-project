@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Make sure to drink 12 cups of coffee a day!
+          Make sure to drink 12 cups of jello a day!
         </a>
       </header>
     </div>
